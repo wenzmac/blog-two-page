@@ -1,0 +1,27 @@
+@import url("typography.css");
+
+
+
+.blog-article {
+  width: auto;
+  margin: auto;
+}
+
+.share-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+.icon img {
+  width: 50px;
+}
+
+
+/* If Screen Is Wide Enough */
+@media(min-width:900px){
+  .blog-article {
+    width: 800px;
+  }
+}

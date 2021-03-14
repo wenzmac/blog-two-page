@@ -1,0 +1,36 @@
+@import url("typography.css");
+
+.nestedGrid {
+  display: grid;
+  grid-auto-columns: minmax(200px,auto);
+  grid-template-rows: auto;
+  grid-gap: 50px;
+  margin: auto;
+  padding: 20px 0;
+}
+.img-blog {
+  width: 100%;
+  object-fit: contain;
+}
+.img-blog {
+  width: 100%;
+  object-fit: contain;
+}
+a.button {
+  border: 1px solid grey;
+  padding: 8px 20px 10px;
+  background-color: #FFCB64;
+  font-size: 1.2em;
+  color: #333132;
+}
+a.button:hover {
+  background-color: #7D407D;
+  color: #fff;
+}
+
+/* If Screen Is Wide Enough */
+@media(min-width:900px){
+  .nestedGrid {
+    grid-template-columns: repeat(3,auto);
+  }
+}

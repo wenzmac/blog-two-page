@@ -1,47 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&family=Staatliches&display=swap');
+
+html {
+  background-color: #F2F2ED;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
 body {
-  font-family: georgia;
-  font-size: 14px;
+  font-family: 'News Cycle', sans-serif;
+  font-weight: 400;
   color: #333132;
 }
-
 h1 {
-  font-size: 30px;
-  font-weight: 100;
-  color: #aaa;
+  font-family: 'Staatliches', cursive;
+  font-size: 40px;
+  color: #ff665a;
   text-align: center;
-  margin: 50px auto;
+  margin: 50px auto 10px;
+  line-height: 1em;
 }
-
 h2 {
   font-size: 20px;
-  font-weight: 100;
-  color: #009aab;
+  font-weight: 700;
+  line-height: 1em;
+  color: #7D407D;
   margin-top: 0;
 }
-
-h3 {
+.date, h3, a.date:visited {
   font-size: 15px;
-  color: #009aab;
-}
-
-.date {
-  font-family: helvetica;
-  font-size: 12px;
   text-transform: uppercase;
-  colour: #9ed1dc;
+  color: #333132;
+  margin: 10px 0;
+}
+.blog {
+  text-align: left;
+  margin-top: 10px;
+}
+h3 {
+  text-align: center;
+}
+.intro {
+  font-size: 25px;
+  text-align: center;
+  margin: 40px auto;
+}
+a.blog-post-header {
+  font-family: 'Staatliches', cursive;
+  font-size: 25px;
+  color: #333132;
+  text-align: center;
+  margin: 20px auto 5px;
+  line-height: 1em;
+  text-decoration: none;
+}
+.author {
+  font-size: 1.5em;
+  margin: 0;
+  font-weight: bold;
+}
+.article-date {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #333132;
+}
+a,
+a:link,
+a:visited,
+a.date:hover {
+  text-decoration: none;
+}
+a:focus,
+a:hover,
+a:active {
+  text-decoration: underline #7D407D;
 }
 
-
-@media(min-width:1200px){
+@media(min-width:900px){
   h1 {
-    font-size: 40px;
+    font-size: 60px;
   }
+}
+@media(min-width:1200px){
   h2 {
-    font-size: 30px;
+    font-size: 28px;
   }
-  h3 {
+  .date, h3, a.date:visited {
     font-size: 18px;
   }
-  .date {
-    font-size: 15px;
 }
