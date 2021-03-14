@@ -1,0 +1,47 @@
+body {
+  font-family: georgia;
+  font-size: 14px;
+  color: #333132;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 100;
+  color: #aaa;
+  text-align: center;
+  margin: 50px auto;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 100;
+  color: #009aab;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 15px;
+  color: #009aab;
+}
+
+.date {
+  font-family: helvetica;
+  font-size: 12px;
+  text-transform: uppercase;
+  colour: #9ed1dc;
+}
+
+
+@media(min-width:1200px){
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .date {
+    font-size: 15px;
+}

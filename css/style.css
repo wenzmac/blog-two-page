@@ -1,0 +1,72 @@
+@import url("typography.css");
+
+.container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 150px auto 150px;
+  grid-template-areas:
+  "hd"
+  "main"
+  "ft";
+}
+
+.nestedGrid {
+  display: grid;
+  grid-auto-columns: minmax(200px,auto);
+  grid-template-rows: auto;
+  grid-gap: 50px;
+  margin: auto;
+  padding: 20px 50px;
+}
+
+
+
+.header {
+  grid-area: hd;
+  border-bottom: 1px solid grey;
+  margin-bottom: 50px;
+}
+
+.content {
+    grid-area: main;
+}
+
+.footer {
+  grid-area: ft;
+  margin: auto;
+}
+
+.share-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.blog-post {
+  border: 1px solid red;
+  background: #F8FA9D;
+}
+
+.img-blog {
+  width: 100%;
+  object-fit: contain;
+}
+
+.button {
+  border: 1px solid grey;
+  padding: 8px;
+}
+
+/* If Screen Is Wide Enough */
+@media(min-width:900px){
+  .nestedGrid {
+    grid-template-columns: repeat(3,auto);
+    padding: 20px 100px;
+  }
+}
+@media(min-width:1800px){
+  .nestedGrid {
+    padding: 20px 200px;
+  }
+}
