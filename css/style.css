@@ -1,26 +1,13 @@
 @import url("typography.css");
 @import url("home.css");
 @import url("blog-post.css");
+@import url("design-system.css");
 
-.container {
-  margin: auto;
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 70px auto 60px;
-  grid-template-areas:
-  "hd"
-  "main"
-  "ft";
-}
-.header {
-  grid-area: hd;
-  padding: 20px 0;
-  margin: auto;
-}
 .content {
   grid-area: main;
   padding: 0 20px;
 }
+
 .footer {
   grid-area: ft;
   margin: auto;
@@ -28,19 +15,27 @@
   text-align: center;
 }
 
+a.button {
+  border: 1px solid grey;
+  padding: 6px 16px 8px;
+  background-color: #FFCB64;
+  font-size: 1em;
+  color: #333132;
+}
+
+a.button:hover {
+  background-color: #7D407D;
+  color: #fff;
+}
+
 /* Larger screen sizes */
-@media(min-width:900px){
-  .container {
-    grid-template-rows: 80px auto 150px;
-  }
-  .header {
-    padding: 20px 0
-  }
+@media(min-width:900px) {
   .content {
     padding: 30px 50px 10px;
   }
 }
-@media(min-width:1800px){
+
+@media(min-width:1800px) {
   .content {
     padding: 30px 200px 10px;
   }

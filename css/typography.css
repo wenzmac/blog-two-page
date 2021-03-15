@@ -2,71 +2,84 @@
 
 html {
   background-color: #F2F2ED;
-  font-size: 1.2em;
-  line-height: 1.6;
 }
+
 body {
-  font-family: 'News Cycle', sans-serif;
-  font-weight: 400;
+  font: 20px/1.4 'News Cycle', sans-serif;
   color: #333132;
 }
+
 h1 {
-  font-family: 'Staatliches', cursive;
-  font-size: 40px;
+  font: 50px/1 'Staatliches', cursive;
   color: #ff665a;
-  text-align: center;
-  margin: 50px auto 10px;
-  line-height: 1em;
 }
+
 h2 {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 1em;
+  font: 22px/0.5 700;
   color: #7D407D;
   margin-top: 0;
 }
+
 .date, h3, a.date:visited {
   font-size: 15px;
   text-transform: uppercase;
   color: #333132;
   margin: 10px 0;
 }
+
 .blog {
   text-align: left;
   margin-top: 10px;
 }
-h3 {
-  text-align: center;
-}
+
 .intro {
   font-size: 25px;
-  text-align: center;
-  margin: 40px auto;
+  margin: 60px 0 30px;
 }
+
 a.blog-post-header {
-  font-family: 'Staatliches', cursive;
-  font-size: 25px;
+  font: 25px/1em  'Staatliches', cursive;
   color: #333132;
-  text-align: center;
-  margin: 20px auto 5px;
-  line-height: 1em;
+  margin: 20px 0 5px;
   text-decoration: none;
 }
+
 .author {
   font-size: 1.5em;
-  margin: 0;
+  margin: 10px 0 0 0;
   font-weight: bold;
 }
+
+.author-title {
+  margin: 0 0 50px;
+}
+
 .article-date {
   font-size: 18px;
   text-transform: uppercase;
   color: #333132;
 }
+
+.caption {
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 4px solid #ff665a;
+  padding-left: 20px;
+  margin: 30px 40px;
+}
+
 a,
 a:link,
 a:visited,
 a.date:hover {
   text-decoration: none;
+  color: #7D407D;
 }
 a:focus,
 a:hover,
@@ -80,9 +93,10 @@ a:active {
     font-size: 60px;
   }
 }
+
 @media(min-width:1200px){
   h2 {
-    font-size: 28px;
+    font-size: 25px;
   }
   .date, h3, a.date:visited {
     font-size: 18px;

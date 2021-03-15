@@ -1,0 +1,25 @@
+.ds-container {
+  margin: auto;
+  width: 800px;
+}
+
+.box1, .box2, .box3 {
+  padding: 5px;
+  width: 100px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.box1 {
+  background-color: #ff665a;
+  margin-top: 60px;
+}
+
+.box2 {
+  background-color: #7D407D;
+  color: #fff;
+}
+
+.box3 {
+  background-color: #FFCB64;
+}
