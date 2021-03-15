@@ -9,7 +9,7 @@
   "ft";
 }
 
-.header {
+header {
   grid-area: he;
   padding: 10px 20px;
 }
@@ -62,7 +62,7 @@ hr {
   .blog-article, .header {
     width: 800px;
   }
-  .header {
+  header {
     margin: auto;
   }
   .more-articles {

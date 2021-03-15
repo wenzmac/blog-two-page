@@ -60,7 +60,7 @@ a.blog-post-header {
   color: #333132;
 }
 
-.caption {
+figcaption {
   font-size: 15px;
   font-style: italic;
   text-align: center;
