@@ -1,5 +1,3 @@
-@import url("typography.css");
-
 .nestedGrid {
   display: grid;
   grid-auto-columns: minmax(200px,auto);
@@ -28,7 +26,7 @@ a.button:hover {
   color: #fff;
 }
 
-/* If Screen Is Wide Enough */
+/* Larger screen sizes */
 @media(min-width:900px){
   .nestedGrid {
     grid-template-columns: repeat(3,auto);

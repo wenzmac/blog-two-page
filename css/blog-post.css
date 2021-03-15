@@ -1,12 +1,7 @@
-@import url("typography.css");
-
-
-
 .blog-article {
   width: auto;
   margin: auto;
 }
-
 .share-links {
   display: flex;
   flex-direction: row;
@@ -18,8 +13,7 @@
   width: 50px;
 }
 
-
-/* If Screen Is Wide Enough */
+/* Larger screen sizes */
 @media(min-width:900px){
   .blog-article {
     width: 800px;

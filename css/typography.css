@@ -74,6 +74,7 @@ a:active {
   text-decoration: underline #7D407D;
 }
 
+/* Larger screen sizes */
 @media(min-width:900px){
   h1 {
     font-size: 60px;
